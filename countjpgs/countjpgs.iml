@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="scala" name="Scala">
+      <configuration>
+        <option name="compilerLibraryLevel" value="Project" />
+        <option name="compilerLibraryName" value="Maven: org.scala-lang:scala-compiler-bundle:2.10.5" />
+        <option name="vmOptions" value="" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/scala" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="" level="project" />
+    <orderEntry type="module-library">
+      <library name="Maven: org.scala-lang:scala-library:2.10.5">
+        <CLASSES>
+          <root url="jar:///usr/lib/spark/lib/spark-assembly.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Maven: org.apache.spark:spark-core_2.10:local">
+        <CLASSES>
+          <root url="jar:///usr/lib/spark/lib/spark-assembly.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Maven: org.apache.hadoop:hadoop-common:local">
+        <CLASSES>
+          <root url="jar:///usr/lib/hadoop/client/hadoop-common.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Maven: org.apache.hadoop:hadoop-mapreduce-client-common:local">
+        <CLASSES>
+          <root url="jar:///usr/lib/hadoop/client/hadoop-mapreduce-client-common.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Maven: org.apache.hadoop:hadoop-annotations:local">
+        <CLASSES>
+          <root url="jar:///usr/lib/hadoop/client/hadoop-annotations.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Maven: org.apache.hadoop:avro:local">
+        <CLASSES>
+          <root url="jar:///usr/lib/hadoop/client/avro.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Maven: org.apache.hadoop:slf4j-log4j12:local">
+        <CLASSES>
+          <root url="jar:///usr/lib/hadoop/client/slf4j-log4j12.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>
+
